@@ -1,0 +1,14 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../../Lab8/Lab8.srcs/sources_1/new/ControlUnit.vhd" \
+"../../../../../Lab8/Lab8.srcs/sources_1/new/constants.vhd" \
+"../../../../MIPS Lab9.srcs/sources_1/new/DataMemory.vhd" \
+"../../../../MIPS Lab9.srcs/sources_1/new/MIPS.vhd" \
+"../../../../../Lab8/Lab8.srcs/sources_1/new/alu.vhd" \
+"../../../../../Lab8/Lab8.srcs/sources_1/new/ir.vhd" \
+"../../../../../Lab8/Lab8.srcs/sources_1/new/pc.vhd" \
+"../../../../../Lab8/Lab8.srcs/sources_1/new/register_block.vhd" \
+"../../../../MIPS Lab9.srcs/sim_1/new/MIPS_tb.vhd" \
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="MIPS_TB_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="MIPS_TB" />
+            <top_module name="procmem_definitions" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="55.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="385.001 ns"></ZoomEndTime>
+      <Cursor1Time time="85.992 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="204"></NameColumnWidth>
+      <ValueColumnWidth column_width="71"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="73" />
+   <wvobject fp_name="/MIPS_TB/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPS_TB/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPS_TB/sw" type="array">
+      <obj_property name="ElementShortName">sw[15:0]</obj_property>
+      <obj_property name="ObjectShortName">sw[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPS_TB/CLK_PERIOD" type="other">
+      <obj_property name="ElementShortName">CLK_PERIOD</obj_property>
+      <obj_property name="ObjectShortName">CLK_PERIOD</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPS_TB/uut/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPS_TB/uut/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPS_TB/uut/sw" type="array">
+      <obj_property name="ElementShortName">sw[15:0]</obj_property>
+      <obj_property name="ObjectShortName">sw[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPS_TB/uut/RegDst" type="logic">
+      <obj_property name="ElementShortName">RegDst</obj_property>
+      <obj_property name="ObjectShortName">RegDst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPS_TB/uut/ExtOP" type="logic">
+      <obj_property name="ElementShortName">ExtOP</obj_property>
+      <obj_property name="ObjectShortName">ExtOP</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPS_TB/uut/ALUSrcA" type="logic">
+      <obj_property name="ElementShortName">ALUSrcA</obj_property>
+      <obj_property name="ObjectShortName">ALUSrcA</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPS_TB/uut/ALUSrcB" type="array">
+      <obj_property name="ElementShortName">ALUSrcB[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUSrcB[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPS_TB/uut/PCWrite" type="logic">
+      <obj_property name="ElementShortName">PCWrite</obj_property>
+      <obj_property name="ObjectShortName">PCWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPS_TB/uut/ALUOp" type="array">
+      <obj_property name="ElementShortName">ALUOp[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUOp[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPS_TB/uut/MemWrite" type="logic">
+      <obj_property name="ElementShortName">MemWrite</obj_property>
+      <obj_property name="ObjectShortName">MemWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPS_TB/uut/MemRead" type="logic">
+      <obj_property name="ElementShortName">MemRead</obj_property>
+      <obj_property name="ObjectShortName">MemRead</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPS_TB/uut/MemtoReg" type="logic">
+      <obj_property name="ElementShortName">MemtoReg</obj_property>
+      <obj_property name="ObjectShortName">MemtoReg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPS_TB/uut/RegWrite" type="logic">
+      <obj_property name="ElementShortName">RegWrite</obj_property>
+      <obj_property name="ObjectShortName">RegWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPS_TB/uut/IRWrite" type="logic">
+      <obj_property name="ElementShortName">IRWrite</obj_property>
+      <obj_property name="ObjectShortName">IRWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPS_TB/uut/lorD" type="logic">
+      <obj_property name="ElementShortName">lorD</obj_property>
+      <obj_property name="ObjectShortName">lorD</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPS_TB/uut/PCOut" type="array">
+      <obj_property name="ElementShortName">PCOut[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PCOut[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPS_TB/uut/PCEntry" type="array">
+      <obj_property name="ElementShortName">PCEntry[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PCEntry[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPS_TB/uut/MemOut" type="array">
+      <obj_property name="ElementShortName">MemOut[31:0]</obj_property>
+      <obj_property name="ObjectShortName">MemOut[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPS_TB/uut/ZeroAlu" type="logic">
+      <obj_property name="ElementShortName">ZeroAlu</obj_property>
+      <obj_property name="ObjectShortName">ZeroAlu</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPS_TB/uut/WriteRegister" type="array">
+      <obj_property name="ElementShortName">WriteRegister[4:0]</obj_property>
+      <obj_property name="ObjectShortName">WriteRegister[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPS_TB/uut/ReadData1" type="array">
+      <obj_property name="ElementShortName">ReadData1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ReadData1[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPS_TB/uut/ReadData2" type="array">
+      <obj_property name="ElementShortName">ReadData2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ReadData2[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPS_TB/uut/WriteData" type="array">
+      <obj_property name="ElementShortName">WriteData[31:0]</obj_property>
+      <obj_property name="ObjectShortName">WriteData[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPS_TB/uut/AluResultOut" type="array">
+      <obj_property name="ElementShortName">AluResultOut[31:0]</obj_property>
+      <obj_property name="ObjectShortName">AluResultOut[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPS_TB/uut/AluResultReg" type="array">
+      <obj_property name="ElementShortName">AluResultReg[31:0]</obj_property>
+      <obj_property name="ObjectShortName">AluResultReg[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPS_TB/uut/DataMemoryReg" type="array">
+      <obj_property name="ElementShortName">DataMemoryReg[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DataMemoryReg[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPS_TB/uut/ReadDataA" type="array">
+      <obj_property name="ElementShortName">ReadDataA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ReadDataA[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPS_TB/uut/ReadDataB" type="array">
+      <obj_property name="ElementShortName">ReadDataB[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ReadDataB[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPS_TB/uut/ReadData1Mux" type="array">
+      <obj_property name="ElementShortName">ReadData1Mux[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ReadData1Mux[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPS_TB/uut/ReadData2Mux" type="array">
+      <obj_property name="ElementShortName">ReadData2Mux[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ReadData2Mux[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPS_TB/uut/SignExtendOut" type="array">
+      <obj_property name="ElementShortName">SignExtendOut[31:0]</obj_property>
+      <obj_property name="ObjectShortName">SignExtendOut[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPS_TB/uut/ShiftOut" type="array">
+      <obj_property name="ElementShortName">ShiftOut[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ShiftOut[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPS_TB/uut/instr_31_26" type="array">
+      <obj_property name="ElementShortName">instr_31_26[5:0]</obj_property>
+      <obj_property name="ObjectShortName">instr_31_26[5:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPS_TB/uut/instr_25_21" type="array">
+      <obj_property name="ElementShortName">instr_25_21[4:0]</obj_property>
+      <obj_property name="ObjectShortName">instr_25_21[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPS_TB/uut/instr_20_16" type="array">
+      <obj_property name="ElementShortName">instr_20_16[4:0]</obj_property>
+      <obj_property name="ObjectShortName">instr_20_16[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPS_TB/uut/instr_15_0" type="array">
+      <obj_property name="ElementShortName">instr_15_0[15:0]</obj_property>
+      <obj_property name="ObjectShortName">instr_15_0[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPS_TB/uut/pc_portmap/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPS_TB/uut/pc_portmap/rst_n" type="logic">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPS_TB/uut/pc_portmap/pc_in" type="array">
+      <obj_property name="ElementShortName">pc_in[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_in[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPS_TB/uut/pc_portmap/PC_en" type="logic">
+      <obj_property name="ElementShortName">PC_en</obj_property>
+      <obj_property name="ObjectShortName">PC_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPS_TB/uut/pc_portmap/pc_out" type="array">
+      <obj_property name="ElementShortName">pc_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPS_TB/uut/pc_portmap/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPS_TB/uut/pc_portmap/rst_n" type="logic">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPS_TB/uut/pc_portmap/pc_in" type="array">
+      <obj_property name="ElementShortName">pc_in[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_in[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPS_TB/uut/pc_portmap/PC_en" type="logic">
+      <obj_property name="ElementShortName">PC_en</obj_property>
+      <obj_property name="ObjectShortName">PC_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPS_TB/uut/pc_portmap/pc_out" type="array">
+      <obj_property name="ElementShortName">pc_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPS_TB/uut/pc_portmap/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPS_TB/uut/pc_portmap/rst_n" type="logic">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPS_TB/uut/pc_portmap/pc_in" type="array">
+      <obj_property name="ElementShortName">pc_in[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_in[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPS_TB/uut/pc_portmap/PC_en" type="logic">
+      <obj_property name="ElementShortName">PC_en</obj_property>
+      <obj_property name="ObjectShortName">PC_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPS_TB/uut/pc_portmap/pc_out" type="array">
+      <obj_property name="ElementShortName">pc_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPS_TB/uut/pc_portmap/temp_counter" type="array">
+      <obj_property name="ElementShortName">temp_counter[31:0]</obj_property>
+      <obj_property name="ObjectShortName">temp_counter[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPS_TB/uut/alu_portmap/a" type="array">
+      <obj_property name="ElementShortName">a[31:0]</obj_property>
+      <obj_property name="ObjectShortName">a[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPS_TB/uut/alu_portmap/b" type="array">
+      <obj_property name="ElementShortName">b[31:0]</obj_property>
+      <obj_property name="ObjectShortName">b[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPS_TB/uut/alu_portmap/opcode" type="array">
+      <obj_property name="ElementShortName">opcode[1:0]</obj_property>
+      <obj_property name="ObjectShortName">opcode[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPS_TB/uut/alu_portmap/result" type="array">
+      <obj_property name="ElementShortName">result[31:0]</obj_property>
+      <obj_property name="ObjectShortName">result[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPS_TB/uut/alu_portmap/zero" type="logic">
+      <obj_property name="ElementShortName">zero</obj_property>
+      <obj_property name="ObjectShortName">zero</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPS_TB/uut/ReadDataB" type="array">
+      <obj_property name="ElementShortName">ReadDataB[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ReadDataB[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPS_TB/uut/ReadData2Mux" type="array">
+      <obj_property name="ElementShortName">ReadData2Mux[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ReadData2Mux[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPS_TB/uut/regfile_portmap/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPS_TB/uut/regfile_portmap/rst_n" type="logic">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPS_TB/uut/regfile_portmap/wen" type="logic">
+      <obj_property name="ElementShortName">wen</obj_property>
+      <obj_property name="ObjectShortName">wen</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPS_TB/uut/regfile_portmap/writeport" type="array">
+      <obj_property name="ElementShortName">writeport[31:0]</obj_property>
+      <obj_property name="ObjectShortName">writeport[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPS_TB/uut/regfile_portmap/adrwport" type="array">
+      <obj_property name="ElementShortName">adrwport[4:0]</obj_property>
+      <obj_property name="ObjectShortName">adrwport[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPS_TB/uut/regfile_portmap/adrport0" type="array">
+      <obj_property name="ElementShortName">adrport0[4:0]</obj_property>
+      <obj_property name="ObjectShortName">adrport0[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPS_TB/uut/regfile_portmap/adrport1" type="array">
+      <obj_property name="ElementShortName">adrport1[4:0]</obj_property>
+      <obj_property name="ObjectShortName">adrport1[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPS_TB/uut/regfile_portmap/readport0" type="array">
+      <obj_property name="ElementShortName">readport0[31:0]</obj_property>
+      <obj_property name="ObjectShortName">readport0[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPS_TB/uut/regfile_portmap/readport1" type="array">
+      <obj_property name="ElementShortName">readport1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">readport1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MIPS_TB/uut/regfile_portmap/registerfile" type="array">
+      <obj_property name="ElementShortName">registerfile[0:31][31:0]</obj_property>
+      <obj_property name="ObjectShortName">registerfile[0:31][31:0]</obj_property>
+   </wvobject>
+</wave_config>
